@@ -21,7 +21,7 @@ const Login = () => {
     }
   }, [token]);
 
-  const onFinishFailed = () => {
+  const onFinishFailed = (errorInfo) => {
     console.log("Failed: ", errorInfo);
   };
 
